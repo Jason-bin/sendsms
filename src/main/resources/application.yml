@@ -1,0 +1,18 @@
+server:
+  port: 8088
+
+# 阿里云短信平台配置
+alibaba:
+  signname: 大叔公馆    #短信签名名称
+  templatecode: SMS_179285602    #短信模板ID
+  accessKeyId: LTAI4Fc4mLcTLeRteuPchjXc     #accessKeyId
+  accessSecret: uy7SFymHZEbXQnT8x7H3Z0hPalhTVQ   #accessSecret
+
+# 腾讯云短信平台
+tencent:
+  signname:     #短信签名名称
+  templatecode:     #短信模板ID
+  smsSdkAppId:      #smsSdkAppId
+  secretId:         #Api秘钥
+  secretKey:        #Api秘钥
+
